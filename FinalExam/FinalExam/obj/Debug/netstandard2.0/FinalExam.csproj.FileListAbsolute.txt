@@ -1,0 +1,15 @@
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\bin\Debug\netstandard2.0\FinalExam.deps.json
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\bin\Debug\netstandard2.0\FinalExam.dll
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\bin\Debug\netstandard2.0\FinalExam.pdb
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\FinalExam.csproj.AssemblyReference.cache
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\FinalExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\FinalExam.AssemblyInfoInputs.cache
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\FinalExam.AssemblyInfo.cs
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\FinalExam.csproj.CoreCompileInputs.cache
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\FinalExam.dll
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\refint\FinalExam.dll
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\FinalExam.pdb
+C:\Users\Kane\source\repos\FinalExam\FinalExam\FinalExam\obj\Debug\netstandard2.0\ref\FinalExam.dll
