@@ -3,16 +3,51 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalExam.View.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <ListView ItemsSource="{Binding Animals}" >
+        <StackLayout Margin="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Button Text="Add New Record" x:Name="btnAddRecord" Clicked="btnAddRecord_Clicked" BackgroundColor="#2196F3" TextColor="White" FontSize="18" FontAttributes="Bold" CornerRadius="8" HeightRequest="50" Margin="0,0,0,10"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Animal Code" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="Characteristics" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Species" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Habitat" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="3"/>
+                <Label Text="Threat" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="4"/>
+            </Grid>
+
+            <ListView x:Name="lstData" HasUnevenRows="True" ItemSelected="lstData_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding Species}" />
-                                <Label Text="{Binding Habitat}" />
-                                <Label Text="{Binding Threat}" />
-                            </StackLayout>
+                            <Frame BackgroundColor="#F5F5F5" Margin="0,5,0,5" Padding="5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding AnimalCode}" Grid.Row="0" Grid.Column="0"/>
+                                    <Label Text="{Binding Characteristics}" Grid.Row="0" Grid.Column="1"/>
+                                    <Label Text="{Binding Species}" Grid.Row="0" Grid.Column="2"/>
+                                    <Label Text="{Binding Habitat}" Grid.Row="0" Grid.Column="3"/>
+                                    <Label Text="{Binding Threat}" Grid.Row="0" Grid.Column="4"/>
+                                </Grid>
+                            </Frame>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

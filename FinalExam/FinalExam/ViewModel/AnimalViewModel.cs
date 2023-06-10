@@ -32,7 +32,7 @@ namespace FinalExam.ViewModel
 
             //Retrieve Records function
 
-            public async Task<List<Animal>> GetAllEmployees()
+            public async Task<List<Animal>> GetAllAnimal()
             {
                 var _dbContext = getContext();
                 var res = await _dbContext.Animal.ToListAsync();
