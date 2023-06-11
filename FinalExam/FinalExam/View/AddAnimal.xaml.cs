@@ -18,11 +18,7 @@ namespace FinalExam.View
         AnimalViewModel _viewModel;
         bool _isUpdate;
         int animalID;
-        //string AnimalCode;
-        //string Characteristics;
-        //string Species;
-        //string Habitat;
-        //string Threat;
+ 
 
 
         public AddAnimal()
@@ -53,6 +49,7 @@ namespace FinalExam.View
         private async void btnSaveUpdate_Clicked(object sender, EventArgs e)
         {
             Animal obj = new Animal();
+            obj.Id = animalID;
             obj.AnimalCode = txtAnimalCode.Text;
             obj.Characteristics = txtCharacteristics.Text;
             obj.Species = txtSpecies.Text;
@@ -70,6 +67,11 @@ namespace FinalExam.View
             }
 
             await this.Navigation.PopAsync();
+        }
+
+        private async void Back(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ListAnimal());
         }
     }
 }

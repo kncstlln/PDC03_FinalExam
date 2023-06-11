@@ -1,25 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalExam.View.AddAnimal">
+             x:Class="FinalExam.View.AddAnimal"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout Margin="20" Spacing="10">
-            <Label Text="Animal Code" FontSize="18" FontAttributes="Bold"/>
-            <Entry x:Name="txtAnimalCode" Placeholder="Enter Animal Code" FontSize="16"/>
-
-            <Label Text="Characteristics" FontSize="18" FontAttributes="Bold"/>
-            <Editor x:Name="txtCharacteristics" Placeholder="Enter Characteristics" FontSize="16"/>
-
-            <Label Text="Species" FontSize="18" FontAttributes="Bold"/>
-            <Entry x:Name="txtSpecies" Placeholder="Enter Species" FontSize="16"/>
-
-            <Label Text="Habitat" FontSize="18" FontAttributes="Bold"/>
-            <Entry x:Name="txtHabitat" Placeholder="Enter Habitat" FontSize="16"/>
-
-            <Label Text="Threat" FontSize="18" FontAttributes="Bold"/>
-            <Entry x:Name="txtThreat" Placeholder="Enter Threat" FontSize="16"/>
-
-            <Button Text="Save" Clicked="btnSaveUpdate_Clicked" BackgroundColor="#2196F3" TextColor="White" FontSize="18" FontAttributes="Bold" CornerRadius="8" HeightRequest="50"/>
+        <StackLayout>
+            <Image Margin="0, -125, 0, 0"
+                   Source="treetailsbackground2.png"
+                   HeightRequest="450"
+                   WidthRequest="450"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"/>
+            <Image Margin="17, -110, 0, 0"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   Source="addtreeinformation.png"/>
+            <AbsoluteLayout Margin="0, 10, 0, 0">
+                <Entry x:Name="txtAnimalCode" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 0, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="Animal Code" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtCharacteristics" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 50, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="Characteristics" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtSpecies"  Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 100, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="txtSpecies" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtHabitat" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 150, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="txtHabitat" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtThreat" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 200, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="Threat" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+            </AbsoluteLayout>
+            <AbsoluteLayout>
+                <Button Margin="185, 25, 0, 0"
+                        Text="ADD TREE"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        HorizontalOptions="Center"
+                        WidthRequest="100"
+                        HeightRequest="35"
+                        CornerRadius="25"
+                        BackgroundColor="White"
+                        Clicked="btnSaveUpdate_Clicked">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#3ECFC5" Offset="0.1" />
+                            <GradientStop Color="#5DD3AA" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Margin="295, 25, 0, 0"
+                        Text="BACK"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        HorizontalOptions="Center"
+                        WidthRequest="100"
+                        HeightRequest="35"
+                        CornerRadius="25"
+                        Clicked="Back"
+                        BackgroundColor="White">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#3ECFC5" Offset="0.1" />
+                            <GradientStop Color="#5DD3AA" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </AbsoluteLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

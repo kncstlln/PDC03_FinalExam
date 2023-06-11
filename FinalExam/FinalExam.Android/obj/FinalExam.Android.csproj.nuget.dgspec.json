@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj": {}
+    "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj": {
+    "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
         "projectName": "FinalExam.Android",
-        "projectPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
+        "projectPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
         "packagesPath": "C:\\Users\\Kane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\obj\\",
+        "outputPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj": {
-                "projectPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj"
+              "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj": {
+                "projectPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj": {
+    "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj",
+        "projectUniqueName": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj",
         "projectName": "FinalExam",
-        "projectPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj",
+        "projectPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj",
         "packagesPath": "C:\\Users\\Kane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\obj\\",
+        "outputPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

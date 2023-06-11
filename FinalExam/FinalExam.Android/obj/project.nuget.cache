@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oFUvXAGLjE5gy52zHrRYPNsEN+iiGyiqggnBIjKuuqSFQ5e02RnI/16qNXPsgdrTY3EHpk7NO/YdwP6C7xUIzw==",
+  "dgSpecHash": "Wsv/k3uqnU7CraJOlLKz9T3zRmX8RAy1CEw1V5FctSlVKasMdUD7l+mmpi8Jlsr/YJGTWtOKOJjt3GSSzBvZuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
+  "projectFilePath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kane\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Kane\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.17\\microsoft.data.sqlite.core.5.0.17.nupkg.sha512",

@@ -4567,11 +4567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
       "projectName": "FinalExam.Android",
-      "projectPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
+      "projectPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\FinalExam.Android.csproj",
       "packagesPath": "C:\\Users\\Kane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam.Android\\obj\\",
+      "outputPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -4592,8 +4592,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj": {
-              "projectPath": "C:\\Users\\Kane\\source\\repos\\FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj"
+            "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj": {
+              "projectPath": "C:\\Users\\Kane\\source\\repos\\PDC03_FinalExam\\FinalExam\\FinalExam\\FinalExam.csproj"
             }
           }
         }

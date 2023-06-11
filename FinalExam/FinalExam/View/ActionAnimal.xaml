@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalExam.View.ActionAnimal">
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Margin="0, -125, 0, 0"
+                   Source="treetailsbackground2.png"
+                   HeightRequest="450"
+                   WidthRequest="450"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"/>
+            <Image Margin="25, -110, 0, 0"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   Source="treeinformation.png"/>
+            <AbsoluteLayout Margin="5, 10, 0, 0">
+                <Entry x:Name="txtAnimalCode" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 0, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="Animal Code" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtCharacteristics" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 50, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="Characteristics" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtSpecies"  Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 100, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="txtSpecies" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtHabitat" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 150, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="txtHabitat" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+                <Entry x:Name="txtThreat" Margin="15, 0, 0, 0"
+                       AbsoluteLayout.LayoutBounds="0, 200, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                       Placeholder="Threat" 
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+            </AbsoluteLayout>
+            <AbsoluteLayout>
+                <Button Margin="75, 25, 0, 0"
+                        Text="UPDATE TREE"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        HorizontalOptions="Center"
+                        WidthRequest="100"
+                        HeightRequest="35"
+                        CornerRadius="25"
+                        BackgroundColor="White">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#3ECFC5" Offset="0.1" />
+                            <GradientStop Color="#5DD3AA" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Margin="185, 25, 0, 0"
+                        Text="EDIT TREE"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        HorizontalOptions="Center"
+                        WidthRequest="100"
+                        HeightRequest="35"
+                        CornerRadius="25"
+                        BackgroundColor="White">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#3ECFC5" Offset="0.1" />
+                            <GradientStop Color="#5DD3AA" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Margin="295, 25, 0, 0"
+                        Text="BACK"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        HorizontalOptions="Center"
+                        WidthRequest="100"
+                        HeightRequest="35"
+                        CornerRadius="25"
+                        Clicked="Back"
+                        BackgroundColor="White">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#3ECFC5" Offset="0.1" />
+                            <GradientStop Color="#5DD3AA" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
